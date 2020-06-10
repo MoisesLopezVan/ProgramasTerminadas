@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="820.0" prefWidth="1489.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="automatafinitovisual.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <ImageView fx:id="imgAutomata" fitHeight="664.0" fitWidth="1493.0" layoutX="-8.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/DiseñoAutomata.PNG" />
+         </image>
+      </ImageView>
+      <Circle fx:id="Estadoq0" layoutX="84.0" layoutY="316.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#1ecdff" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq1" layoutX="224.0" layoutY="316.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#1ecdff" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq2" layoutX="339.0" layoutY="316.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#1ecdff" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq3" layoutX="433.0" layoutY="316.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#4e35a3" offset="0.9963768115942029" />
+                  <Stop color="#4e35a3" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq4" layoutX="535.0" layoutY="316.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#4e35a3" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq5" layoutX="623.0" layoutY="316.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#4e35a3" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq6" layoutX="726.0" layoutY="316.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#4c35a0" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq7" layoutX="827.0" layoutY="316.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#4e35a3" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq9" layoutX="961.0" layoutY="316.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#4e35a3" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq10" layoutX="1181.0" layoutY="301.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#ff981b" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq11" layoutX="989.0" layoutY="396.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq12" layoutX="863.0" layoutY="440.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#c4c4c4" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq13" layoutX="1107.0" layoutY="412.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq14" layoutX="1049.0" layoutY="573.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#c4c4c4" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq15" layoutX="1274.0" layoutY="424.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#ff981b" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq17" layoutX="1420.0" layoutY="440.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#ff981b" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq16" layoutX="1250.0" layoutY="592.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq21" layoutX="891.0" layoutY="693.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#00fff6" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq18" layoutX="1229.0" layoutY="693.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq25" layoutX="739.0" layoutY="536.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq19" layoutX="993.0" layoutY="787.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#00fff6" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq23" layoutX="810.0" layoutY="607.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#00fff6" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq26" layoutX="527.0" layoutY="732.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#f5fa00" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq24" layoutX="507.0" layoutY="536.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#2134ff" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq8" layoutX="202.0" layoutY="536.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#2134ff" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq20" layoutX="782.0" layoutY="770.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#579a66" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq22" layoutX="726.0" layoutY="657.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#579a66" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq29" fill="#1fff3f" layoutX="72.0" layoutY="732.0" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="Estadoq28" layoutX="217.0" layoutY="732.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#f5fa00" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Circle fx:id="Estadoq27" layoutX="358.0" layoutY="732.0" radius="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#00ff54" />
+                  <Stop color="#f5fa00" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <TextArea fx:id="textAreaResultado" layoutX="754.0" layoutY="11.0" prefHeight="162.0" prefWidth="706.0" promptText="RESULTADO CAMINO DEL AUTOMATA" />
+      <Button fx:id="btnEntrada" layoutX="563.0" layoutY="122.0" mnemonicParsing="false" onAction="#IniciarAutomata" style="-fx-background-color: red;" text="Mostrar camino" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label layoutX="210.0" layoutY="24.0" text="AUTOMATA FINITO" textFill="RED">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textCadenaEntrada" layoutX="28.0" layoutY="115.0" prefHeight="28.0" prefWidth="519.0" promptText="Ingrese la función">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnLimpiarAutomata" layoutX="563.0" layoutY="60.0" mnemonicParsing="false" onAction="#LimpiarAutomata" style="-fx-background-color: red;" text="Limpiar automata" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
