@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping 
+SYSTEM "classpath://org/hibernate/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="clases">
+  <class name="Reporte" table="reporte">
+   <id name="id"
+            column="id"
+            type="java.lang.Integer"
+            unsaved-value="null" >
+            <generator class="native">
+            </generator>
+        </id>
+
+<property name="nombre" column="nombre"/>
+<property name="descripcion" column="descripcion" />
+<property name="id_reportepadre" column="id_reportepadre" />
+  </class>
+</hibernate-mapping>
